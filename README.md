@@ -8,13 +8,13 @@ Download given files, create a new folder and extract downloaded files into the 
 npm install
 ```
 
-Start the project
+Start the project.
 
 ```sh
 npm start
 ```
 
-edit files according to your need.
+Edit files according to your need.
 
 ## How was it done?
 First, I downloaded Electron Quick-Start files. Then activated `nodeIntegration` in `main.js` file as below.
