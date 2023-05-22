@@ -101,7 +101,7 @@ btn.addEventListener('click', async () => {
 });
 ```
 
-Then our last step is to add `handle` function in to the `main.js` file.
+Then our last step is to add `handle` function in to `whenReady()` function where in `main.js` file.
 
 ```js
 app.whenReady().then(() => {
@@ -112,6 +112,9 @@ app.whenReady().then(() => {
 
 });
 ```
+
+Start your application and click the `nodeTest` button. You will see result of `package.json` file in the application console.
+
 
 
 
