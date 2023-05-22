@@ -20,7 +20,7 @@ Edit files according to your need.
 First, I downloaded Electron Quick-Start files. Then activated `nodeIntegration` in `main.js` file as below.
 
 ```js
-const win = new BrowserWindow({
+const mainWindow = new BrowserWindow({
   width: 800,
   height: 600,
   webPreferences: {
