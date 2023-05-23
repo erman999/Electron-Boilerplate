@@ -141,7 +141,8 @@ So far so good. Let's implement MySQL connection to our application. `mysql2` is
 npm install --save mysql2
 ```
 
-There are plenty of examples that shows connecting database via `createConnection` method but I do not like to create connection to database all the time. The best way is to create a connection pool then use same connection for further requests.
+
+There are plenty of examples that shows connecting database via `createConnection` method but I do not like to create connection all the time. The best way is to create a connection pool then use same connection for further requests.
 
 Now, we need to call `mysql2` library and create connection pool.
 
