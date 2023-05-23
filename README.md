@@ -1,6 +1,10 @@
 # Electron-Boilerplate
 Simple Electron Boilerplate project including `nodeIntegration` and `contextBridge` approach.
 
+
+![Image-1](https://raw.githubusercontent.com/erman999/Electron-Boilerplate/master/screenshot.jpg)
+
+
 ## Usage
 Download given files, create a new folder and extract downloaded files into the folder. Copy folder address and go to the folder from your terminal. Download dependencies.
 
