@@ -122,6 +122,7 @@ btn.addEventListener('click', async () => {
 Then our last step is to add `handle` function in to `whenReady()` function where in `main.js` file.
 
 ```js
+// main.js
 app.whenReady().then(() => {
   createWindow();
   
@@ -167,6 +168,7 @@ async function sqlTest() {
 Then add our `ipcMain.handle` again to test connection by button click.
 
 ```js
+// main.js
 app.whenReady().then(() => {
   createWindow()
   
