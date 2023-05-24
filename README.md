@@ -205,6 +205,7 @@ And finally, add listener for button click.
 
 ```js
 // renderer.js
+const btn2 = document.getElementById('btn2');
 btn2.addEventListener('click', async () => {
   const result = await window.NodeElectron.sqlTest();
   console.log(result);
