@@ -1,5 +1,5 @@
 # Electron-Boilerplate
-Simple Electron Boilerplate project including `nodeIntegration` and `contextBridge` approach.
+Simple Electron Boilerplate project including `contextBridge` and `IPC` approach.
 
 
 ![Image-1](https://raw.githubusercontent.com/erman999/Electron-Boilerplate/master/screenshot.jpg)
